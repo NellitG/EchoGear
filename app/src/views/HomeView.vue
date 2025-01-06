@@ -1,5 +1,5 @@
 <template>
-  <Hero />
+  <!-- <Hero /> -->
   <!-- <Empower /> -->
   <!-- <calltoaction /> -->
   <!-- <impact /> -->
