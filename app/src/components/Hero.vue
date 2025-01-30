@@ -42,7 +42,7 @@
         </div>
         <div class="hidden lg:mt-0 lg:col-span-5 lg:flex">
           <img
-            src="../assets/headphones.png"
+            src="https://img.freepik.com/premium-photo/photo-headphones_931878-314997.jpg?ga=GA1.1.487577296.1727511220&semt=ais_hybrid"
             alt="mockup"
             class="animate__animated animate__bounce animate__repeat-infinite animate__slow"
           />
