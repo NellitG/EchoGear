@@ -5,9 +5,9 @@
       >
         <div class="mr-auto place-self-center lg:col-span-7">
           <h1
-            class="max-w-2xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl"
+            class="max-w-2xl mb-4 text-4xl font-semibold tracking-tight leading-none md:text-5xl xl:text-6xl"
           >
-            Payments tool for software companies
+            Payments tool for<br><span class="text-orange-600"> software companies</span>
           </h1>
           <p
             class="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl"
@@ -42,9 +42,9 @@
         </div>
         <div class="hidden lg:mt-0 lg:col-span-5 lg:flex">
           <img
+            ref="headphonesImage"
             src="https://img.freepik.com/premium-photo/photo-headphones_931878-314997.jpg?ga=GA1.1.487577296.1727511220&semt=ais_hybrid"
             alt="mockup"
-            class="animate__animated animate__bounce animate__repeat-infinite animate__slow"
           />
         </div>
       </div>
@@ -52,5 +52,18 @@
   </template>
   
   <script>
-
+  import { gsap } from "gsap";
+  
+  export default {
+    name: "HeroSection",
+    mounted() {
+      // Rotate the image continuously
+      gsap.to(this.$refs.headphonesImage, {
+        rotationY: 360, // Rotate 360 degrees
+        duration: 5, // Duration of one full rotation
+        repeat: -1, // Repeat indefinitely
+        ease: "linear", // Smooth linear animation
+      });
+    },
+  };
   </script>
