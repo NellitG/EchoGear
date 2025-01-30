@@ -1,5 +1,5 @@
 <template>
-  <!-- <Hero /> -->
+  <Hero />
   <!-- <Empower /> -->
   <!-- <calltoaction /> -->
   <!-- <impact /> -->
@@ -8,7 +8,7 @@
 </template>
 
 <script setup>
-// import Hero from "@/components/Hero.vue";
+import Hero from "@/components/Hero.vue";
 // import Programs from "@/components/Programs.vue";
 // import impact from "@/components/impact.vue";
 // import calltoaction from "@/components/calltoaction.vue";
