@@ -1,22 +1,22 @@
 export { fakeBackend };
 
 function fakeBackend() {
-  let users = [
-    {
-      id: 1,
-      username: "test@gmail.com",
-      password: "test",
-      firstName: "Test",
-      lastName: "User",
-    },
-    {
-      id: 2,
-      username: "joekaranja@gmail.com",
-      password: "joe123",
-      firstName: "Joe",
-      lastName: "Karanja",
-    },
-  ];
+  // let users = [
+  //   {
+  //     id: 1,
+  //     username: "test@gmail.com",
+  //     password: "test",
+  //     firstName: "Test",
+  //     lastName: "User",
+  //   },
+  //   {
+  //     id: 2,
+  //     username: "joekaranja@gmail.com",
+  //     password: "joe123",
+  //     firstName: "Joe",
+  //     lastName: "Karanja",
+  //   },
+  // ];
 
   let realFetch = window.fetch;
   window.fetch = function (url, opts) {
