@@ -39,7 +39,6 @@
           <!-- Navigation items -->
           <ul
             class="flex flex-col lg:flex-row gap-6 lg:gap-8 text-white lg:text-black mt-4 lg:mt-0 lg:items-center px-4 lg:px-0 font-semibold"
-          style="font-family: 'Finger Paint', cursive"
             >
             <li>
               <router-link
@@ -50,6 +49,18 @@
                 >Home</router-link
               >
             </li>
+            <li class="relative group">
+              <router-link
+                to="/shop"
+                class="hover:text-blue-900 flex items-center"
+                active-class="hover:text-blue-900"
+                @click.native="closeMenu"
+              >
+                <span>Shop</span>
+                <span class="ml-1"></span>
+              </router-link>
+            </li>
+
             <li>
               <router-link
                 to="/aboutus"
@@ -58,29 +69,7 @@
                 @click.native="closeMenu"
                 >About Us</router-link
               >
-            </li>
-            <li class="relative group">
-              <router-link
-                to="/programs"
-                class="hover:text-blue-900 flex items-center"
-                active-class="hover:text-blue-900"
-                @click.native="closeMenu"
-              >
-                <span>Programs</span>
-                <span class="ml-1"></span>
-              </router-link>
-            </li>
-            
-            <li>
-              <router-link
-                to="/gallery"
-                class="hover:text-blue-900 relative"
-                active-class="hover:text-blue-900"
-                @click.native="closeMenu"
-              >
-                Gallery
-              </router-link>
-            </li>
+            </li>            
             <li>
               <router-link
                 to="/contact"
@@ -89,16 +78,6 @@
                 @click.native="closeMenu"
                 >Contact Us</router-link
               >
-            </li>
-            <!-- Donate Button as a Router Link -->
-            <li class="lg:ml-auto justify-end hidden lg:block">
-              <router-link
-                to="/Donations"
-                class="bg-blue-900 text-white font-semibold py-1.5 px-4 rounded-md hover:bg-blue-900 text-sm"
-                @click="closeMenu"
-              >
-                Donate
-              </router-link>
             </li>
           </ul>
         </nav>
