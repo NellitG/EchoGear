@@ -6,6 +6,7 @@ import App from "./App.vue";
 /**styling */
 // import "./style.css";
 import "./assets/tailwind.css"; //tailwind
+import 'animate.css';
 
 // setup fake backend
 import { fakeBackend } from "./helpers";
