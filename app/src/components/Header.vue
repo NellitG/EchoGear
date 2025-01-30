@@ -26,7 +26,7 @@
             <img
               src="../assets/logos.png"
               alt="Logo"
-              class="h-10 lg:h-12 object-contain"
+              class="h-10 lg:h-12 object-contain mt-4"
             />
           </router-link>
         </div>

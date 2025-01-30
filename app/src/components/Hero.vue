@@ -5,8 +5,9 @@
       >
         <div class="mr-auto place-self-center lg:col-span-7">
           <h1
-            class="max-w-2xl mb-4 text-4xl font-semibold tracking-tight leading-none md:text-5xl xl:text-6xl"
-          >
+            class="max-w-2xl mt-4 mb-4 text-4xl font-gloria tracking-tight leading-none md:text-5xl xl:text-6xl"
+            style="font-family: 'Gloria Hallelujah', serif"
+           >
             Payments tool for<br><span class="text-orange-600"> software companies</span>
           </h1>
           <p
@@ -40,7 +41,7 @@
             Speak to Sales
           </a>
         </div>
-        <div class="hidden lg:mt-0 lg:col-span-5 lg:flex">
+        <div class="lg:mt-0 lg:col-span-5 lg:flex">
           <img
             ref="headphonesImage"
             src="https://img.freepik.com/premium-photo/photo-headphones_931878-314997.jpg?ga=GA1.1.487577296.1727511220&semt=ais_hybrid"
@@ -59,10 +60,10 @@
     mounted() {
       // Rotate the image continuously
       gsap.to(this.$refs.headphonesImage, {
-        rotationY: 360, // Rotate 360 degrees
-        duration: 5, // Duration of one full rotation
-        repeat: -1, // Repeat indefinitely
-        ease: "linear", // Smooth linear animation
+        rotationY: 360, 
+        duration: 5, 
+        repeat: -1, 
+        ease: "linear",
       });
     },
   };
