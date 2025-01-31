@@ -8,7 +8,7 @@
             class="max-w-2xl mt-4 mb-4 text-4xl font-gloria tracking-tight leading-none md:text-5xl xl:text-6xl"
             style="font-family: 'Gloria Hallelujah', serif"
            >
-            Payments tool for<br><span class="text-orange-600"> software companies</span>
+            Let's Feel the<br>Music with<br><span class="text-orange-600"> Best Sound Quality</span>
           </h1>
           <p
             class="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl"
@@ -57,14 +57,14 @@
   
   export default {
     name: "HeroSection",
-    mounted() {
-      // Rotate the image continuously
-      gsap.to(this.$refs.headphonesImage, {
-        rotationY: 360, 
-        duration: 5, 
-        repeat: -1, 
-        ease: "linear",
-      });
-    },
+    // mounted() {
+    //   // Rotate the image continuously
+    //   gsap.to(this.$refs.headphonesImage, {
+    //     rotationY: 360, 
+    //     duration: 5, 
+    //     repeat: -1, 
+    //     ease: "linear",
+    //   });
+    // },
   };
   </script>
