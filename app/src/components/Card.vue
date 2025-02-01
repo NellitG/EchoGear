@@ -46,7 +46,7 @@
                 alt="sacco3 image"
               />
             </div>
-            <h4 class="font-semibold">Advocacy</h4>
+            <!-- <h4 class="font-semibold">Advocacy</h4> -->
             <p>
               Be the change you wish to see. Every voice matters in policy reforms. Join the journey of a thousand miles.
             </p>
