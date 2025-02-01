@@ -14,7 +14,7 @@
                 alt="sacco1 image"
               />
             </div>
-            <h4 class="font-semibold">Becoming a Volunteer</h4>
+            <!-- <h4 class="font-semibold">Becoming a Volunteer</h4> -->
             <p class="text-center">
               Become part of a movement that uplifts lives,
               VOLUNTEER with us. Together, we can make inclusion a global standard
