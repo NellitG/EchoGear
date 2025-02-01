@@ -47,9 +47,9 @@
               />
             </div>
             <!-- <h4 class="font-semibold">Advocacy</h4> -->
-            <p>
+            <!-- <p>
               Be the change you wish to see. Every voice matters in policy reforms. Join the journey of a thousand miles.
-            </p>
+            </p> -->
           </div>
         </div>
       </div>
