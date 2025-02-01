@@ -32,9 +32,9 @@
               />
             </div>
             <!-- <h4 class="font-semibold">Donate</h4> -->
-            <p>
+            <!-- <p>
               Your involvement fuels our mission to uplift and empower children with special needs. Every penny counts in achieving the future we envision.
-            </p>
+            </p> -->
           </div>
           <div
             class="flex flex-col items-center bg-white rounded-lg border-yellow-400 border-2 border-black-400 hover:shadow-xl space-y-4 md:max-w-auto p-4"
