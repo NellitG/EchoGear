@@ -15,11 +15,11 @@
               />
             </div>
             <!-- <h4 class="font-semibold">Becoming a Volunteer</h4> -->
-            <p class="text-center">
+            <!-- <p class="text-center">
               Become part of a movement that uplifts lives,
               VOLUNTEER with us. Together, we can make inclusion a global standard
               and transform futures.
-            </p>
+            </p> -->
           </div>
           <div
             class="flex flex-col items-center bg-white rounded-lg border-yellow-400 border-2 border-black-400 hover:shadow-xl space-y-4 md:max-w-auto p-4"
