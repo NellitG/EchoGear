@@ -31,7 +31,7 @@
                 alt="sacco2 image"
               />
             </div>
-            <h4 class="font-semibold">Donate</h4>
+            <!-- <h4 class="font-semibold">Donate</h4> -->
             <p>
               Your involvement fuels our mission to uplift and empower children with special needs. Every penny counts in achieving the future we envision.
             </p>
