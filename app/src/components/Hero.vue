@@ -6,7 +6,7 @@
         <div class="mr-auto place-self-center lg:col-span-7">
           <h1
             class="max-w-2xl mt-4 mb-4 text-4xl font-gloria tracking-tight leading-none md:text-5xl xl:text-6xl"
-            style="font-family: 'Gloria Hallelujah', serif"
+           
            >
             Let's Feel the<br>Music with<br><span class="text-orange-600"> Best Sound Quality</span>
           </h1>
@@ -18,7 +18,7 @@
           </p>
           <a
             href="#"
-            class="inline-flex items-center justify-center px-5 py-3 mr-3 text-base font-medium text-center text-black rounded-lg bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300"
+            class="inline-flex items-center justify-center px-5 py-3 mr-3 text-base font-medium text-center text-black border-yellow-500 border-2 rounded-lg bg-primary-700 hover:bg-yellow-500 focus:ring-4 focus:ring-primary-300"
           >
             Get started
             <svg
