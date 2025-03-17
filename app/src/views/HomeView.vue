@@ -1,6 +1,6 @@
 <template>
   <Hero />
-  <!-- <Card /> -->
+  <Card />
 </template>
 
 <script setup>
