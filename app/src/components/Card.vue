@@ -27,7 +27,7 @@ export default {
   data() {
     return {
       songs: [],
-      cardRefs: [], // Store card references
+      cardRefs: [], 
     };
   },
   async created() {
@@ -39,7 +39,6 @@ export default {
     }
   },
   updated() {
-    // Wait for Vue to finish rendering
     this.$nextTick(() => {
       this.animateCards();
     });
