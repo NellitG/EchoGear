@@ -1,5 +1,5 @@
 <template>
-    <div class="bg-white min-h-screen-xl mx-auto p-8 text-center mt-10">
+    <div class="bg-green-50 min-h-screen-xl mx-auto p-8 text-center">
       <h2 class="text-3xl font-gloria text-orange-600 mb-6">🎶 Our Sponsors</h2>
       <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-6 gap-6 items-center">
         <div v-for="sponsor in sponsors" :key="sponsor.name" class="flex flex-col items-center space-y-2 font-gloria">
