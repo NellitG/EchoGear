@@ -8,17 +8,16 @@
             class="max-w-2xl mt-4 mb-4 text-4xl font-gloria tracking-tight leading-none md:text-5xl xl:text-6xl"
            
            >
-            Let's Feel the<br>Music with<br><span class="text-orange-600"> Best Sound Quality</span>
+            Let's Feel the<br>Music with<br><span class="text-green-400"> Best Sound Quality</span>
           </h1>
           <p
             class="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl"
           >
-            From checkout to global sales tax compliance, companies around the world
-            use Flowbite to simplify their payment stack.
+          Discover a world of music with our intuitive song search and seamless streaming capabilities. Create personalized playlists, connect with fellow music lovers, and elevate your musical journey.
           </p>
           <a
             href="#"
-            class="inline-flex items-center justify-center px-5 py-3 mr-3 text-base font-medium text-center text-black border-yellow-500 border-2 rounded-lg bg-primary-700 hover:bg-yellow-500 focus:ring-4 focus:ring-primary-300"
+            class="inline-flex items-center border-2 justify-center px-5 py-3 mr-3 text-base font-medium text-center text-black  rounded-lg bg-primary-700 hover:bg-green-400 focus:ring-4 focus:ring-primary-300"
           >
             Get started
             <svg
@@ -36,15 +35,15 @@
           </a>
           <a
             href="#"
-            class="inline-flex items-center justify-center px-5 py-3 text-base font-medium text-center text-gray-900 rounded-lg hover:bg-orange-600 focus:ring-4 focus:ring-gray-100"
+            class="inline-flex items-center justify-center px-5 py-3 text-base font-medium text-center text-gray-900 rounded-lg hover:bg-orange-400 focus:ring-4 focus:ring-gray-100"
           >
             Speak to Sales
           </a>
         </div>
-        <div class="lg:mt-0 lg:col-span-5 lg:flex">
+        <div class="lg:mt-4 lg:col-span-5 lg:flex">
           <img
             ref="headphonesImage"
-            src="https://img.freepik.com/premium-photo/photo-headphones_931878-314997.jpg?ga=GA1.1.487577296.1727511220&semt=ais_hybrid"
+            src="https://img.freepik.com/premium-photo/3d-rendering-headphones-isolated-white-background_461160-10113.jpg?uid=R141465363&ga=GA1.1.487577296.1727511220"
             alt="mockup"
           />
         </div>
