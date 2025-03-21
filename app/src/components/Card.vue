@@ -1,7 +1,7 @@
 <template>
   <div class="bg-white text-orange-600 max-w-screen-xl mx-auto p-8">
     <h1 class="text-4xl font-gloria mb-6 text-center">🎵 Music Library</h1>
-    <div v-if="songs.length" class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-10 px-4">
+    <div v-if="songs.length" class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-10 w-full px-4">
       <div
         v-for="(song, index) in songs"
         :key="song.id"
