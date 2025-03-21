@@ -3,7 +3,7 @@
     <!-- Header section -->
     <header
       :class="{
-        'h-14 lg:h-20 fixed w-full top-0 inset-0 z-20 bg-gradient-to-r from-yellow-500 to-orange-500 transition-transform duration-100': true,
+        'h-14 lg:h-20 fixed w-full top-0 inset-0 z-20 bg-gradient-to-r from-green-400 to-orange-400 transition-transform duration-100': true,
         '-translate-y-full': !isHeaderVisible,
       }"
     >
@@ -43,8 +43,8 @@
             <li>
               <router-link
                 to="/"
-                class="hover:text-blue-900"
-                active-class="hover:text-blue-900"
+                class="hover:text-black"
+                active-class="hover:text-green-400"
                 @click.native="closeMenu"
                 >Home</router-link
               >
@@ -52,8 +52,8 @@
             <li class="relative group">
               <router-link
                 to="/shop"
-                class="hover:text-blue-900 flex items-center"
-                active-class="hover:text-blue-900"
+                class="hover:text-black flex items-center"
+                active-class="hover:text-green-400"
                 @click.native="closeMenu"
               >
                 <span>Shop</span>
@@ -64,8 +64,8 @@
             <li>
               <router-link
                 to="/aboutus"
-                class="hover:text-blue-900"
-                active-class="hover:text-blue-900"
+                class="hover:text-black"
+                active-class="hover:text-green-400"
                 @click.native="closeMenu"
                 >About Us</router-link
               >
@@ -73,8 +73,8 @@
             <li>
               <router-link
                 to="/contact"
-                class="hover:text-blue-900"
-                active-class="hover:text-blue-900"
+                class="hover:text-black"
+                active-class="hover:text-green-400"
                 @click.native="closeMenu"
                 >Contact Us</router-link
               >
