@@ -11,7 +11,7 @@
             Let's Feel the<br>Music with<br><span class="text-green-400"> Best Sound Quality</span>
           </h1>
           <p
-            class="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl"
+            class="max-w-2xl mb-6 font-gloria text-gray-500 lg:mb-8 md:text-lg lg:text-xl"
           >
           Discover a world of music with our intuitive song search and seamless streaming capabilities. Create personalized playlists, connect with fellow music lovers, and elevate your musical journey.
           </p>
