@@ -3,7 +3,7 @@
     <!-- Header section -->
     <header
       :class="{
-        'h-14 lg:h-20 fixed w-full top-0 inset-0 z-20 bg-gradient-to-r from-green-400 to-orange-400 transition-transform duration-100': true,
+        'h-14 lg:h-20 fixed w-full top-0 inset-0 z-20 bg-green-50 transition-transform duration-100': true,
         '-translate-y-full': !isHeaderVisible,
       }"
     >
