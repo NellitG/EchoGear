@@ -1,7 +1,7 @@
 <template>
   <Hero />
   <Streaming />
-  <!-- <Card /> -->
+  <Card />
   <Testimonial />
   <Section />
   <Client />
