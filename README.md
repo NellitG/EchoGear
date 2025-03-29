@@ -1,5 +1,6 @@
 #Building Music API site
 #MusicalAPI Endpoints 
+#Artist, Song, Playlist
 
 
 # Vue-learn
