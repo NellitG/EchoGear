@@ -6,7 +6,7 @@
         v-for="(song, index) in songs"
         :key="song.id"
         :ref="el => cardRefs[index] = el"
-        class="bg-orange-600 p-6 rounded-xl shadow-lg transition duration-300 flex flex-col items-start opacity-0"
+        class="hover:bg-orange-400 bg-green-50 p-6 rounded-xl shadow-lg transition duration-300 flex flex-col items-start opacity-0"
       > 
         <h2 class="text-lg text-black font-semibold">{{ song.title }}</h2>
         <p class="text-sm text-black">by {{ song.artist_name || song.artist?.name }}</p>
@@ -14,7 +14,7 @@
           v-if="song.youtube_url" 
           :href="song.youtube_url" 
           target="_blank" 
-          class="mt-3 inline-block border-2 border-orange-600 bg-yellow-500 text-white px-4 py-2 rounded-md text-sm"
+          class="mt-3 inline-block border-2 bg-orange-400 text-white px-4 py-2 rounded-md text-sm"
         >
           🎧 Listen
         </a>
